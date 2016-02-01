@@ -7,14 +7,13 @@
 <meta name="viewport" content="width=device-width">
 
 <link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+	href="${resource(dir: 'stylesheets', file: 'bootstrap.css')}">
 <link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.css" />
+	href="${resource(dir: 'stylesheets', file: 'toaster.css')}">
 <link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/css/material.css" />
+	href="${resource(dir: 'stylesheets', file: 'material.css')}">
 <link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/css/ripples.css" />
-
+	href="${resource(dir: 'stylesheets', file: 'ripples.css')}">
 <link rel="stylesheet"
 	href="${resource(dir: 'stylesheets', file: 'main.css')}">
 
@@ -30,34 +29,19 @@
 		<div ng-view=""></div>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.js"></script>
-
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.js"></script>
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-animate.js"></script>
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-resource.js"></script>
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
-
-	<script src="https://cdn.firebase.com/js/client/2.1.0/firebase.js"></script>
-	<script
-		src="https://cdn.firebase.com/libs/angularfire/0.9.1/angularfire.min.js"></script>
-
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js"></script>
-
+	<asset:javascript src="lib/jquery-2.1.3.js" />
+	<asset:javascript src="lib/bootstrap.js" />
+	<asset:javascript src="lib/angular.js" />
+	<asset:javascript src="lib/angular-animate.js" />
+	<asset:javascript src="lib/angular-resource.js" />
+	<asset:javascript src="lib/angular-route.js" />
+	<asset:javascript src="lib/firebase.js" />
+	<asset:javascript src="lib/angularfire.min.js" />
+	<asset:javascript src="lib/toaster.js" />
 	<asset:javascript src="lib/moment.min.js" />
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.js"></script>
-
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/material.js"></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/ripples.js"></script>
+	<asset:javascript src="lib/angular-moment.js" />
+	<asset:javascript src="lib/material.js" />
+	<asset:javascript src="lib/ripples.js" />
 
 	<script>
 		$(document).ready(function() {
