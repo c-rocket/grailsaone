@@ -53,7 +53,7 @@ environments {
     production {
         dataSource {
             dbCreate = "update"
-			jndiName = "jdbc/hackathonDB"
+			jndiName = "jdbc/aoneDB"
         }
     }
 }
