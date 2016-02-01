@@ -5,6 +5,7 @@ class UrlMappings {
 			} }
 
 		"/"(view:"/index")
+		"/index.gsp"(view:"/index")
 		"/nav"(view:"/nav")
 		"/browse"(view:"/browse")
 		"/login"(view:"/login")
