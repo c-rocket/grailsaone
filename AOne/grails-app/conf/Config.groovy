@@ -88,9 +88,15 @@ grails.hibernate.osiv.readonly = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+		grails.app.context="aOne"
     }
+	test {
+		grails.logging.jul.usebridge = true
+		grails.app.context="aOne"
+	}
     production {
         grails.logging.jul.usebridge = false
+		grails.app.context="/"
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }
@@ -115,4 +121,3 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
-grails.app.context="/aOne"

@@ -1,7 +1,7 @@
 'use strict';
 var baseUrl;
 var app = angular.module('aOne',
-		[ 'ngAnimate', 'ngResource', 'ngRoute', 'firebase', 'toaster', 'angularMoment', 'toaster' ])
+		[ 'ngAnimate', 'ngResource', 'ngRoute', 'firebase', 'toaster', 'angularMoment' ])
 
 .config(function($routeProvider) {
 	baseUrl = angular.element($('#baseUrl')).val();
