@@ -1,0 +1,19 @@
+Testsuite: com.oracle.grails.aone.service.UserServiceSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.778 sec
+------------- Standard Output ---------------
+--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+------------- ---------------- ---------------
+
+Testcase: test change password - valid took 0.574 sec
+Testcase: test change password - invalid took 0.077 sec
+Testcase: test login - valid took 0.059 sec
+Testcase: test login - invalid took 0.048 sec

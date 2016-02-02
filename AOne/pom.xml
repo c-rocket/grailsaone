@@ -221,6 +221,16 @@
 					<grailsVersion>${grails.version}</grailsVersion>
 				</configuration>
 				<extensions>true</extensions>
+				<executions>
+					<execution>
+						<goals>
+							<goal>maven-war</goal>
+						</goals>
+						<configuration>
+							<env>prod</env>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

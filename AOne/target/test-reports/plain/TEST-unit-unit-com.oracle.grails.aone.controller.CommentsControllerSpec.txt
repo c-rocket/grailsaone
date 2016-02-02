@@ -1,0 +1,13 @@
+Testsuite: com.oracle.grails.aone.controller.CommentsControllerSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 5.138 sec
+------------- Standard Output ---------------
+--Output from test find comments for item--
+--Output from test create comment--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test find comments for item--
+--Output from test create comment--
+------------- ---------------- ---------------
+
+Testcase: test find comments for item took 5.009 sec
+Testcase: test create comment took 0.058 sec

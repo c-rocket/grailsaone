@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="CCROCKET-LAP" name="com.oracle.grails.aone.service.UserServiceSpec" tests="4" time="0.778" timestamp="2016-02-02T19:59:19">
+  <properties />
+  <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test change password - valid" time="0.574" />
+  <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test change password - invalid" time="0.077" />
+  <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test login - valid" time="0.059" />
+  <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test login - invalid" time="0.048" />
+  <system-out><![CDATA[--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+]]></system-out>
+  <system-err><![CDATA[--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+]]></system-err>
+</testsuite>

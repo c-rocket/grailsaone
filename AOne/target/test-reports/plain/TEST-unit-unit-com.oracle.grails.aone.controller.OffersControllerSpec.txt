@@ -1,0 +1,16 @@
+Testsuite: com.oracle.grails.aone.controller.OffersControllerSpec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.365 sec
+------------- Standard Output ---------------
+--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+------------- ---------------- ---------------
+
+Testcase: test find offers for item took 0.274 sec
+Testcase: test update offer took 0.033 sec
+Testcase: test create offers took 0.034 sec

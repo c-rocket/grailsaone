@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="0" name="CommentsControllerSpec" package="com.oracle.grails.aone.controller" tests="2" time="5.138" timestamp="2016-02-02T19:59:11">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.controller.CommentsControllerSpec" name="test find comments for item" time="5.009" />
+
+      <testcase classname="com.oracle.grails.aone.controller.CommentsControllerSpec" name="test create comment" time="0.058" />
+
+      <system-out><![CDATA[--Output from test find comments for item--
+--Output from test create comment--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test find comments for item--
+--Output from test create comment--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="1" name="ItemsControllerSpec" package="com.oracle.grails.aone.controller" tests="5" time="0.618" timestamp="2016-02-02T19:59:16">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.controller.ItemsControllerSpec" name="test get items" time="0.328" />
+
+      <testcase classname="com.oracle.grails.aone.controller.ItemsControllerSpec" name="test get items by id" time="0.042" />
+
+      <testcase classname="com.oracle.grails.aone.controller.ItemsControllerSpec" name="test delete item" time="0.045" />
+
+      <testcase classname="com.oracle.grails.aone.controller.ItemsControllerSpec" name="test create item" time="0.045" />
+
+      <testcase classname="com.oracle.grails.aone.controller.ItemsControllerSpec" name="test update item" time="0.119" />
+
+      <system-out><![CDATA[--Output from test get items--
+--Output from test get items by id--
+--Output from test delete item--
+--Output from test create item--
+--Output from test update item--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test get items--
+--Output from test get items by id--
+--Output from test delete item--
+--Output from test create item--
+--Output from test update item--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="2" name="OffersControllerSpec" package="com.oracle.grails.aone.controller" tests="3" time="0.365" timestamp="2016-02-02T19:59:17">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test find offers for item" time="0.273" />
+
+      <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test update offer" time="0.033" />
+
+      <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test create offers" time="0.034" />
+
+      <system-out><![CDATA[--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="3" name="UsersControllerSpec" package="com.oracle.grails.aone.controller" tests="5" time="0.627" timestamp="2016-02-02T19:59:17">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.controller.UsersControllerSpec" name="test change password good change" time="0.323" />
+
+      <testcase classname="com.oracle.grails.aone.controller.UsersControllerSpec" name="test change password bad change" time="0.028" />
+
+      <testcase classname="com.oracle.grails.aone.controller.UsersControllerSpec" name="test create user" time="0.044" />
+
+      <testcase classname="com.oracle.grails.aone.controller.UsersControllerSpec" name="login - valid" time="0.063" />
+
+      <testcase classname="com.oracle.grails.aone.controller.UsersControllerSpec" name="login - invalid" time="0.057" />
+
+      <system-out><![CDATA[--Output from test change password good change--
+--Output from test change password bad change--
+--Output from test create user--
+--Output from login - valid--
+--Output from login - invalid--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test change password good change--
+--Output from test change password bad change--
+--Output from test create user--
+--Output from login - valid--
+--Output from login - invalid--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="4" name="ItemServiceSpec" package="com.oracle.grails.aone.service" tests="1" time="1.38" timestamp="2016-02-02T19:59:18">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.service.ItemServiceSpec" name="test formating of item returned for find all" time="1.341" />
+
+      <system-out><![CDATA[--Output from test formating of item returned for find all--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test formating of item returned for find all--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="CCROCKET-LAP" id="5" name="UserServiceSpec" package="com.oracle.grails.aone.service" tests="4" time="0.778" timestamp="2016-02-02T19:59:19">
+      <properties />
+
+      <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test change password - valid" time="0.574" />
+
+      <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test change password - invalid" time="0.077" />
+
+      <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test login - valid" time="0.059" />
+
+      <testcase classname="com.oracle.grails.aone.service.UserServiceSpec" name="test login - invalid" time="0.048" />
+
+      <system-out><![CDATA[--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test change password - valid--
+--Output from test change password - invalid--
+--Output from test login - valid--
+--Output from test login - invalid--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

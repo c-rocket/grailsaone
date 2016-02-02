@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="CCROCKET-LAP" name="com.oracle.grails.aone.controller.OffersControllerSpec" tests="3" time="0.365" timestamp="2016-02-02T19:59:17">
+  <properties />
+  <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test find offers for item" time="0.273" />
+  <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test update offer" time="0.033" />
+  <testcase classname="com.oracle.grails.aone.controller.OffersControllerSpec" name="test create offers" time="0.034" />
+  <system-out><![CDATA[--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+]]></system-out>
+  <system-err><![CDATA[--Output from test find offers for item--
+--Output from test update offer--
+--Output from test create offers--
+]]></system-err>
+</testsuite>

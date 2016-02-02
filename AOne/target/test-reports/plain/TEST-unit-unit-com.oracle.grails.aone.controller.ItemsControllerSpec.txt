@@ -1,0 +1,22 @@
+Testsuite: com.oracle.grails.aone.controller.ItemsControllerSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.618 sec
+------------- Standard Output ---------------
+--Output from test get items--
+--Output from test get items by id--
+--Output from test delete item--
+--Output from test create item--
+--Output from test update item--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test get items--
+--Output from test get items by id--
+--Output from test delete item--
+--Output from test create item--
+--Output from test update item--
+------------- ---------------- ---------------
+
+Testcase: test get items took 0.328 sec
+Testcase: test get items by id took 0.042 sec
+Testcase: test delete item took 0.045 sec
+Testcase: test create item took 0.045 sec
+Testcase: test update item took 0.119 sec

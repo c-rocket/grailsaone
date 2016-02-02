@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="CCROCKET-LAP" name="com.oracle.grails.aone.controller.CommentsControllerSpec" tests="2" time="5.138" timestamp="2016-02-02T19:59:11">
+  <properties />
+  <testcase classname="com.oracle.grails.aone.controller.CommentsControllerSpec" name="test find comments for item" time="5.009" />
+  <testcase classname="com.oracle.grails.aone.controller.CommentsControllerSpec" name="test create comment" time="0.058" />
+  <system-out><![CDATA[--Output from test find comments for item--
+--Output from test create comment--
+]]></system-out>
+  <system-err><![CDATA[--Output from test find comments for item--
+--Output from test create comment--
+]]></system-err>
+</testsuite>
