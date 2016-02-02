@@ -1,0 +1,11 @@
+/AOne-0.1.war
+/tomcat/
+/classes/
+/gspcompile/
+/plugin-build-classes/
+/plugin-classes/
+/plugin-provided-classes/
+/resources/
+/test-classes/
+/test-reports/
+/work/
