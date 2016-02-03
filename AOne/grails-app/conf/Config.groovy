@@ -121,7 +121,6 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
-
 grails.assets.minifyJs=false
 grails.assets.minifyCss=false
-grails.assets.enableSourceMaps=false
+grails.assets.includes = ["**/*.js"]
