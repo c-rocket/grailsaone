@@ -32,7 +32,7 @@ class ItemService {
 			ITEM_BOUGHT_BY:item.boughtBy?.id,
 			ITEM_PRICE:item.price,
 			ITEM_STATUS:item.status,
-			USER_GRAVATAR:it.postedBy?.gravatar
+			USER_GRAVATAR:item.postedBy?.gravatar
 		]
 	}
 
