@@ -1,1 +1,0 @@
-"use strict";app.controller("NavController",function(e,t,n,r,i){t.$on("userEvent",function(e,n){t.name=n.name;t.gravatar=n.gravatar;t.signedIn=n.signedIn;console.log("logged in user is ",t.name,t.gravatar,t.signedIn)});t.logout=function(){var t={};t.name="";t.gravatar="";t.email="";t.signedIn=0;e.$broadcast("userEvent",t);r.pop("success","Logged out successfully")}})

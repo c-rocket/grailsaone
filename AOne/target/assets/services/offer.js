@@ -1,1 +1,0 @@
-"use strict";app.factory("Offer",function(e,t){console.log("Offer factory loaded");return e(baseUrl+"offer/:itemId",{},{findOffers:{method:"GET",isArray:true},deleteOffer:{method:"DELETE",params:{taskId:"@id"}}})});app.factory("OfferSvc",function(e){var t={updateOffer:function(t,n){return e.put(t,n)}};return t})

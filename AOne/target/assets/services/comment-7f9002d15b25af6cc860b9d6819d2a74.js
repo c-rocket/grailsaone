@@ -1,1 +1,0 @@
-"use strict";app.factory("Comment",function(e){return e(baseUrl+"comment/:itemId",{},{addComment:{method:"POST"},findComments:{method:"GET",isArray:true},deleteComment:{method:"DELETE",params:{taskId:"@id"}}})})
